@@ -7,8 +7,18 @@ import seaborn as sns
 import plotly.figure_factory as ff
 
 # Load Data
-df = pd.read_csv('athlete_events.csv')
-region_df = pd.read_csv('noc_regions.csv')
+import zipfile
+##df = pd.read_csv('athlete_events.csv')
+with zipfile.ZipFile("data.zip", "r") as z:
+    with z.open("athlete_events.csv") as file:
+        df = pd.read_csv(file)
+##region_df = pd.read_csv('noc_regions.csv')
+with zipfile.ZipFile("data.zip", "r") as z:
+    with z.open("athlete_events.csv") as file:
+        df = pd.read_csv(file)
+    
+    with z.open("noc_regions.csv") as file:
+        region_df = pd.read_csv(file)
 
 df = preprocessor.preprocess(df, region_df)
 
