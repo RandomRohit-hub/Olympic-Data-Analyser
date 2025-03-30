@@ -8,3 +8,7 @@ Dataset Link: https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athle
 Dataset has been uploaded to repo in form of zip extract it and place it in same folder
 
 
+
+
+I discovered a method to read the dataset from a ZIP file and successfully deploy the app on Streamlit.(line 10-18 in app.py)
+https://olympic-data-analyser-vpklbhhpfnaaghioztddgw.streamlit.app/
