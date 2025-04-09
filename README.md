@@ -51,7 +51,7 @@ The project is structured as an **exploratory data analysis (EDA)** using Python
 - **NumPy** – for numerical operations
 - *(Optional tools for visualization, if added later: Matplotlib, Seaborn, Plotly)*
 
----
+--
 
 ## 🚀 How to Run
 
