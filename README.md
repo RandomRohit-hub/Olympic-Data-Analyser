@@ -6,7 +6,7 @@
 
 # 🏅 Olympics Data Analysis
 
-This project dives into historical Olympic Games data, focusing exclusively on the **Summer Olympics**. The primary goal is to clean, analyze, and draw meaningful insights from the dataset that includes information about athletes, their participation over the years, events, and the countries they represent.
+This project dives into historical Olympic Games data, focusing exclusively on the **Summer Olympics**. The primary goal is to clean, analyze, and draw meaningful insights from the dataset that includes information about athletes, their participation over the years, events, and the countries they represent
 
 By combining the athlete data with regional metadata, the analysis aims to uncover patterns and trends in Olympic history — such as which countries have dominated specific sports, how athlete participation has evolved over time, and the geographic distribution of medals.
 
